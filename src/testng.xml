@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SampleMobileAutomation">
+    <test name="Test">
+        <parameter name="platformName" value="Android"/>
+        <classes>
+            <class name="tests.OnBoardingTest"/>
+            <class name="tests.ConnectWalletTest"/>
+            <class name="tests.CreateWalletTest"/>
+        </classes>
+    </test>
+</suite>
